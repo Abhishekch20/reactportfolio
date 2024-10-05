@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from "../constants"
-import profilePic from "../assets/about.jpeg"
+import profilePic from "../assets/Abhi5.jpg"
 import cv from "../assets/Abhishek Chiluveru's CV.pdf"
 import { motion } from "framer-motion"
 
@@ -50,7 +50,7 @@ const Hero = () => {
                             initial={{ x: 100, opacity: 0 }}
                             animate={{ x: 0, opacity: 1 }}
                             transition={{ duration: 1, delay: 1.2 }}
-                            className="h-1/2 w-60 mt-10 lg:w-1/2 lg:h-1/2" src={profilePic} alt="profilePic" />
+                            className="h-1/2 w-60 mt-10 lg:mb-10 lg:w-1/2 lg:h-1/2 rounded" src={profilePic} alt="profilePic" />
                     </div>
                 </div>
             </div>

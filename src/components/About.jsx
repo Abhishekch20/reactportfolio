@@ -1,4 +1,3 @@
-import aboutImg from "../assets/about.jpeg"
 import { ABOUT_TEXT } from "../constants"
 import aboutImg1 from "../assets/bg1.png"
 import { delay, motion } from "framer-motion"
@@ -10,7 +9,7 @@ const About = () => {
                 About
                 <span className="text-neutral-500">Me</span>
             </h1>
-            <div className="flex flex-wrap">
+            <div className="flex flex-wrap lg:mb-10">
                 <motion.div
                     whileInView={{ opacity: 1, x: 0 }}
                     initial={{ opacity: 0, x: -100 }}
