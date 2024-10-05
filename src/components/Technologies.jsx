@@ -16,9 +16,8 @@ import { SiJupyter } from "react-icons/si";
 import { SiScikitlearn } from "react-icons/si";
 import { FaGitAlt } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-import { IoLogoFigma } from "react-icons/io5";
+import { IoLogoFigma, IoLogoWordpress } from "react-icons/io5";
 import { VscVscode } from "react-icons/vsc";
-
 const Technologies = () => {
     return (
         <div className="border-b border-neutral-800 ">
@@ -95,6 +94,8 @@ const Technologies = () => {
                             VS Code</div>
                         <div className="flex items-center justify-center border rounded border-neutral-400 h-12 ml-4 w-28 mb-4"><IoLogoFigma className="mr-2 text-green-300" />
                             Figma</div>
+                            <div className="flex items-center justify-center border rounded border-neutral-400 h-12  w-32 mb-4"><IoLogoWordpress className="mr-2 text-green-300" />
+                            Wordpress</div>
                     </div>
                 </motion.div>
             </div>

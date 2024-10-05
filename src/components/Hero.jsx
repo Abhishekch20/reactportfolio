@@ -44,7 +44,7 @@ const Hero = () => {
                         animate="visible"
                         href={cv} className="mb-8 ml-6 bg-neutral-900 px-8 py-3 text-md font-medium text-purple-500 lg:px-8 lg:py-3  rounded-xl lg:ml-20 md:ml-24">Resume</motion.a>
                 </div>
-                <div className="w-full lg:w-1/2 lg:p-8">
+                <div className="w-full lg:w-1/2 lg:p-6  ">
                     <div className="flex justify-center">
                         <motion.img
                             initial={{ x: 100, opacity: 0 }}
